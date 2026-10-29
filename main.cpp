@@ -9,7 +9,10 @@ void nhap(int &n) {
 void xuat(int n) {
     cout << "Gia tri n: " << n;
 }
-
+bool ktchan(int n)
+{
+    return n%2==0;
+}
 int main() {
     int n;
     nhap(n);
